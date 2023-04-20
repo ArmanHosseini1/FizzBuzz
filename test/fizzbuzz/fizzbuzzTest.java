@@ -45,4 +45,9 @@ class fizzbuzzTest {
 	void fizzbuzz_repond_fizz_pour_6() {
 		assertEquals("fizz", fb.fizzBuzz(6));
 	}
+	
+	@Test
+	void fizzbuzz_repond_fizzbuzz() {
+		assertEquals("fizzbuzz", fb.fizzBuzz(15));
+	}
 }
